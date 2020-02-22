@@ -21,6 +21,7 @@ namespace ContosoPets2Web
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                    // this is a test
                 });
     }
 }
